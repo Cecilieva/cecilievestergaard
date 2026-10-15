@@ -18,7 +18,6 @@ document.querySelectorAll('img[data-media]').forEach((img) => {
 
 document.querySelectorAll('video[data-media]').forEach((video) => {
   const source = video.querySelector('source');
-  if (video.networkState === 3) { showMissing(video); return; } // NETWORK_NO_SOURCE: fejlede allerede
   (source || video).addEventListener('error', () => showMissing(video), { once: true });
 });
 
