@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vuuh — Case 02 — Cecilie Vestergaard Andersen</title>
+<meta name="description" content="Vuuh: UX audit og redesign af onboardingen for nye butiksejere på Shopify.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23141414'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23F3F0E8' font-family='Georgia'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="case-vuuh">
+
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Forside">C.V</a>
+  <nav class="site-nav" aria-label="Hovedmenu">
+    <a href="projekter.html" aria-current="page">PROJEKTER</a>
+    <a href="om-mig.html">OM MIG</a>
+    <a href="kontakt.html">KONTAKT</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- Overblik -->
+  <section class="case-intro">
+    <div class="fl hide-sm" style="right: 40px; top: 20px; --r: -2deg; animation-duration: 15s" aria-hidden="true">
+      <div class="card-ui" style="width: 220px">
+        <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--muted)"><span>Onboarding</span><span>Trin 2 af 4</span></div>
+        <div class="bar"><i style="width: 50%; background: var(--accent)"></i></div>
+      </div>
+    </div>
+    <div class="fl b hide-sm" style="left: 70px; top: 420px; animation-duration: 16s" aria-hidden="true">
+      <div class="cursor" style="--cursor: #3D3170"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 2l7 19 2.5-7.5L20 11z" fill="#3D3170" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg><span>Cecilie</span></div>
+    </div>
+    <div class="fl hide-sm" style="left: 40px; top: 600px; --r: 4deg; animation-duration: 14s; animation-delay: -5s" aria-hidden="true">
+      <div class="sticky" style="background: #E4DEFA">Hvor rejsen gik i stå</div>
+    </div>
+
+    <div class="label">Overblik / Case 02</div>
+    <div>
+      <h1>Vuuh.<br><em>En start, der viser vejen.</em></h1>
+      <div class="cols">
+        <div>
+          <p class="lead">Vuuh henter produktdata og billeder fra brands og sender dem direkte videre til butikkens webshop. Men nye brugere gik i stå, før de kom i gang: under installationen, forbindelsen til Shopify og den første ordre.</p>
+          <p class="body">Vi evaluerede onboardingen, samlede fundene i en UX Audit Summary og redesignede tre dele af flowet i en interaktiv prototype.</p>
+        </div>
+        <div>
+          <dl class="meta-list">
+            <div><dt>Kunde</dt><dd>Vuuh</dd></div>
+            <div><dt>Type</dt><dd>UX audit &amp; produktoptimering</dd></div>
+            <div><dt>Team</dt><dd>Gruppeprojekt, 5 personer</dd></div>
+            <div><dt>Metoder</dt><dd>Heuristisk evaluering · Kognitiv gennemgang</dd></div>
+            <div><dt>Værktøjer</dt><dd>Figma · FigJam</dd></div>
+            <div><dt>Output</dt><dd>UX Audit Summary · Interaktiv prototype</dd></div>
+          </dl>
+          <div class="tags"><span>UX Audit</span><span>Onboarding</span><span>Interaktionsdesign</span><span>Prototyping</span></div>
+          <a class="back" href="projekter.html">← Tilbage til projekter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section class="media-full selection inset" aria-label="Vuuh i Shopify App Store">
+    <img data-media src="media/vuuh/hero.png" alt="Vuuh i Shopify App Store" data-ratio="1360/765" style="width: 100%">
+    <i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i>
+    <span class="tag">Vuuh · Shopify App Store</span>
+  </section>
+
+  <!-- 01 Udgangspunktet -->
+  <section class="chapter">
+    <div class="label"><b>01</b>&nbsp; Udgangspunktet</div>
+    <div>
+      <h2>En start med flere spørgsmål <em>end svar.</em></h2>
+      <p>Charlotte ejer en lille modebutik med webshop, men apps og integrationer er ikke en del af hendes hverdag. Efter installationen tror hun, at opsætningen er færdig, selvom forbindelsen til Shopify mangler. Hun blev vores primære persona. Emma, der selv installerer apps, var den sekundære: for hende måtte guidningen aldrig stå i vejen.</p>
+    </div>
+  </section>
+
+  <section class="persona" aria-label="Persona: Charlotte">
+    <img data-media src="media/vuuh/charlotte.jpg" alt="Charlotte, den selvstændige butiksejer" loading="lazy" data-ratio="566/538" style="width: 100%">
+    <div>
+      <h3>Charlotte</h3>
+      <div class="role">Den selvstændige butiksejer.</div>
+      <div class="lists">
+        <div>
+          <div class="label">Pains</div>
+          <ol class="num-list">
+            <li><span class="no">01</span><div><span style="color: var(--ink); font-size: 15px">Overvældet af en kompliceret onboarding.</span></div></li>
+            <li><span class="no">02</span><div><span style="color: var(--ink); font-size: 15px">Ved ikke, hvor oplysningerne findes.</span></div></li>
+            <li><span class="no">03</span><div><span style="color: var(--ink); font-size: 15px">Forvirret i skiftet mellem Shopify og Vuuh.</span></div></li>
+          </ol>
+        </div>
+        <div>
+          <div class="label">Mål og behov</div>
+          <ol class="num-list">
+            <li><span class="no">01</span><div><span style="color: var(--ink); font-size: 15px">Sikker på, at Vuuh er sat korrekt op.</span></div></li>
+            <li><span class="no">02</span><div><span style="color: var(--ink); font-size: 15px">Tydelige trin-for-trin-instruktioner.</span></div></li>
+            <li><span class="no">03</span><div><span style="color: var(--ink); font-size: 15px">Nem adgang til hjælp, når hun er i tvivl.</span></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 Undersøgelsen -->
+  <section class="chapter">
+    <div class="label"><b>02</b>&nbsp; Undersøgelsen</div>
+    <div>
+      <h2>Hvor rejsen <em>gik i stå.</em></h2>
+      <p>Vi fulgte Charlotte gennem onboardingen i en kognitiv gennemgang og holdt skærmene op mod Nielsens heuristikker. Systemet fortalte sjældent, hvad der var sket, og vigtig information druknede i tekst. Fundene blev til tre fokusområder og ét designmål.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="panel stats">
+      <div class="stat"><div class="v">27</div><div class="t">observationer</div></div>
+      <div class="stat"><div class="v">4</div><div class="t">fund, prioriteret efter frafald</div></div>
+      <div class="stat"><div class="v">3</div><div class="t">fokusområder</div></div>
+    </div>
+    <div class="insights">
+      <div class="panel"><h4>Manglende overblik</h4><p>Hvor er jeg, og hvad er næste skridt?</p></div>
+      <div class="panel"><h4>Utilstrækkelig feedback</h4><p>Gjorde jeg det rigtigt?</p></div>
+      <div class="panel"><h4>Uklart system</h4><p>Hvad betyder valgene og begreberne?</p></div>
+    </div>
+    <div class="goal">
+      <div class="label">Designmål</div>
+      <p>En onboarding, der føles overskuelig, guidet og tryg, så brugeren aldrig er i tvivl om, hvor de er, hvad de skal gøre, eller hvad der sker.</p>
+    </div>
+  </section>
+
+  <!-- 03 Løsningen -->
+  <section class="chapter">
+    <div class="label"><b>03</b>&nbsp; Løsningen</div>
+    <div>
+      <h2>En onboarding, <em>der viser vejen.</em></h2>
+      <p>Successiden bekræfter nu installationen og peger på ét næste skridt. Forbindelsen til Shopify er samlet i én guide med fire trin, og en demo-guide tager brugeren gennem den første download. De største problemer lå i overgangene mellem systemerne, så næste skridt er at teste prototypen med butiksejere som Charlotte.</p>
+    </div>
+  </section>
+
+  <section class="change" style="padding-top: 0">
+    <div class="change-head"><div class="label">Ændring 01</div><h3>Tydeligere feedback</h3></div>
+    <div class="compare c2">
+      <figure>
+        <div class="shot tagged"><span class="t">Før</span><img data-media src="media/vuuh/feedback-for.png" alt="Før: brugeren skal selv skifte fra Shopify til Vuuh" loading="lazy" data-ratio="564/334"></div>
+        <figcaption>Manuelt skifte fra Shopify-side til Vuuh-side</figcaption>
+      </figure>
+      <figure>
+        <div class="shot tagged"><span class="t">Efter</span><video data-media autoplay muted loop playsinline data-ratio="555/344" aria-label="Efter: bekræftelse på at Vuuh er installeret"><source src="media/vuuh/feedback-efter.mp4" type="video/mp4"></video></div>
+        <figcaption>Feedback om skift fra Shopify-side til Vuuh-side</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="change">
+    <div class="change-head"><div class="label">Ændring 02</div><h3>Tydeligere struktur</h3></div>
+    <div class="compare c3">
+      <figure>
+        <div class="pair">
+          <div class="shot tagged"><span class="t">Før · modal 1</span><img data-media src="media/vuuh/struktur-for-1.png" alt="Før: første modal" loading="lazy" data-ratio="550/341"></div>
+          <div class="shot tagged"><span class="t">Før · modal 2</span><img data-media src="media/vuuh/struktur-for-2.png" alt="Før: anden modal" loading="lazy" data-ratio="550/344"></div>
+        </div>
+        <figcaption>To modaler med en masse information</figcaption>
+      </figure>
+      <figure>
+        <div class="shot tagged"><span class="t">Efter</span><video data-media autoplay muted loop playsinline data-ratio="751/468" aria-label="Efter: ét samlet modal opdelt i trin"><source src="media/vuuh/struktur-efter.mp4" type="video/mp4"></video></div>
+        <figcaption>Ét samlet modal opdelt i tydelige trin</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="change">
+    <div class="change-head"><div class="label">Ændring 03</div><h3>Klar næste handling: demo-guiden</h3></div>
+    <div class="compare c2">
+      <figure>
+        <div class="shot tagged"><span class="t">Før</span><img data-media src="media/vuuh/demo-for.png" alt="Før: Outputs-siden uden en tydelig næste handling" loading="lazy" data-ratio="900/563"></div>
+        <figcaption>Næste skridt var uklart, og brugeren blev efterladt uden retning. Førstegangsbrugere som Charlotte blev usikre, fordi flowet ikke viste, hvad der skulle ske efter installationen.</figcaption>
+      </figure>
+      <figure>
+        <div class="shot tagged"><span class="t">Efter</span><video data-media autoplay muted loop playsinline data-ratio="800/499" aria-label="Efter: Dashboard med demo-guiden"><source src="media/vuuh/demo-efter.mp4" type="video/mp4"></video></div>
+        <figcaption>Brugeren bliver nu ledt tilbage til Dashboard og opfordret til at starte demo-visningen. Demoen viser ordreflowet trin for trin, så brugeren hurtigt forstår Vuuh i praksis.</figcaption>
+      </figure>
+    </div>
+    <div class="why">
+      <div class="label">Hvorfor det er vigtigt</div>
+      <p>Guidningen fjerner tvivl og giver et trygt første møde med Vuuh — både for Charlotte og for mere selvkørende brugere som Emma.</p>
+    </div>
+  </section>
+
+  <section class="panel" style="margin-top: 96px">
+    <div class="label" style="margin-bottom: 24px">Tilgængelighed</div>
+    <div class="stats">
+      <div class="stat"><div class="v sm">1,9:1</div><div class="t">kontrast på hjælpetekst. Kravet er 4,5:1.</div></div>
+      <div class="stat"><div class="v sm">10–12</div><div class="t">px på labels.</div></div>
+      <div class="stat"><div class="v sm">0</div><div class="t">synlige fokusmarkeringer.</div></div>
+      <div class="stat"><div class="v sm">24×24</div><div class="t">px som mindste klikområde.</div></div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div>
+      <div class="label">Udviklet af</div>
+      <ul>
+        <li>Caroline Majlandt Clorius</li>
+        <li>Freia Mandrup Krog</li>
+        <li>Laura Lynge Nielsen</li>
+        <li>Mia Poder Olesen</li>
+        <li>Cecilie Vestergaard Andersen</li>
+      </ul>
+    </div>
+    <div class="links">
+      <!-- TODO: indsæt link til Figma-prototypen og PDF'en (læg PDF'en i /media/vuuh/) -->
+      <a class="outline-btn" href="#">Figma-prototype ↗</a>
+      <a class="outline-btn" href="#">UX Audit Summary (PDF) ↗</a>
+    </div>
+  </section>
+
+  <section class="next" style="border-top: 1px solid rgba(20,20,20,0.15)">
+    <div class="label">Næste projekt</div>
+    <a class="next-card" href="again.html" style="background: var(--rose)">
+      <div>
+        <div class="label">Case 03</div>
+        <div class="nm" style="color: #801E24">AGAIN by LA RŌUGE</div>
+        <div class="ds">Secondhand-koncept for LA RŌUGE</div>
+      </div>
+      <span class="round-arrow" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <div>
+      <a class="footer-mail" href="mailto:Cecilieva@outlook.dk">Cecilieva@outlook.dk</a>
+      <nav class="footer-links" aria-label="Footer"><a href="projekter.html">Projekter</a><a href="om-mig.html">Om mig</a><a href="kontakt.html">Kontakt</a></nav>
+    </div>
+    <div class="footer-social"><a href="#">Instagram</a><a href="#">Linkedin</a><a href="#">Tiktok</a></div>
+  </div>
+  <div class="copyright">© <span data-year>2026</span> Cecilie Vestergaard Andersen</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

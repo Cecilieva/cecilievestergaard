@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekter — Cecilie Vestergaard Andersen</title>
+<meta name="description" content="Tre cases: Mellemrum, Vuuh og AGAIN by LA RŌUGE.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23141414'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23F3F0E8' font-family='Georgia'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Forside">C.V</a>
+  <nav class="site-nav" aria-label="Hovedmenu">
+    <a href="projekter.html" aria-current="page">PROJEKTER</a>
+    <a href="om-mig.html">OM MIG</a>
+    <a href="kontakt.html">KONTAKT</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <div class="fl hide-sm" style="right: 8%; top: 10%; --r: 4deg; animation-duration: 15s" aria-hidden="true">
+      <div class="sticky" style="width: 110px; min-height: 110px; background: var(--sticky-yellow)">Research → idé → test</div>
+    </div>
+    <div class="fl b hide-sm" style="right: 26%; top: 6%; --r: -3deg; animation-duration: 13s; animation-delay: -4s" aria-hidden="true">
+      <div class="cursor"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 2l7 19 2.5-7.5L20 11z" fill="#2F4BFF" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg><span>Cecilie</span></div>
+    </div>
+    <div class="fl hide-sm" style="right: 14%; top: 58%; --r: 2deg; animation-duration: 16s; animation-delay: -7s" aria-hidden="true">
+      <div class="chip" style="font-size: 11px; border-radius: 14px; padding: 12px 14px">
+        <span style="border: 1.5px solid var(--ink); border-radius: 999px; padding: 4px 9px">Problem</span>
+        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="#141414" stroke-width="1.5"><path d="M0 5h14M10 1l4 4-4 4"/></svg>
+        <span style="background: var(--ink); color: #fff; border-radius: 999px; padding: 4px 9px">Løsning</span>
+      </div>
+    </div>
+
+    <div class="label" style="color: var(--muted); margin-bottom: 20px">(03) Cases</div>
+    <h1>PROJEKTER</h1>
+    <p class="intro">Et udvalg af mine projekter fra multimediedesign — fra research og brugertest til færdige prototyper og kode.</p>
+    <div class="filters" role="group" aria-label="Filtrér projekter">
+      <button type="button" data-filter="alle" aria-pressed="true">ALLE</button>
+      <button type="button" data-filter="ux" aria-pressed="false">UX</button>
+      <button type="button" data-filter="ui" aria-pressed="false">UI</button>
+      <button type="button" data-filter="kode" aria-pressed="false">KODE</button>
+      <button type="button" data-filter="gruppe" aria-pressed="false">GRUPPEPROJEKT</button>
+    </div>
+  </section>
+
+  <section style="padding-bottom: 140px" aria-label="Projekter">
+    <div class="project-grid">
+      <a href="mellemrum.html" class="pcard" data-tags="kode ui">
+        <div class="stage" style="background: var(--mint); height: 560px">
+          <div class="num">01</div>
+          <div class="phone" aria-hidden="true" style="width: 240px; height: 470px">
+            <div class="ph-title">Mellemrum</div>
+            <div class="ph-chips"><span class="on">I aften</span><span>Koncerter</span><span>Kunst</span></div>
+            <div class="ph-block" style="height: 120px; background: #A9CDB3"></div>
+            <div style="font-size: 12px; font-weight: 600">Find plads til noget nyt</div>
+            <div style="font-size: 10px; color: #666; margin-top: -8px">Aarhus</div>
+            <div class="ph-block" style="height: 90px; background: #E2EEE5"></div>
+          </div>
+        </div>
+        <div class="meta">
+          <div><div class="name">Mellemrum</div><div class="desc">Kultur- og eventplatform for Aarhus</div></div>
+          <svg class="arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pills"><span>WEBUDVIKLING</span><span>INDIVIDUELT</span></div>
+      </a>
+
+      <a href="vuuh.html" class="pcard" data-tags="ux gruppe">
+        <div class="stage" style="background: var(--lavender); height: 560px">
+          <div class="num">02</div>
+          <div class="phone" aria-hidden="true" style="width: 240px; height: 470px">
+            <div class="ph-progress"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+            <div class="ph-title" style="font-size: 28px; line-height: 1.05; margin-top: 18px">Connect your<br>store</div>
+            <div style="font-size: 11px; color: #666">Connect to Shopify</div>
+            <div class="ph-field">Shop name</div>
+            <div class="ph-field">Currency</div>
+            <div class="ph-field">Language</div>
+            <div class="ph-btn">Continue</div>
+          </div>
+        </div>
+        <div class="meta">
+          <div><div class="name">Vuuh</div><div class="desc">Optimering af onboarding</div></div>
+          <svg class="arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pills"><span>UX AUDIT</span><span>GRUPPEPROJEKT</span></div>
+      </a>
+
+      <a href="again.html" class="pcard" data-tags="ux ui gruppe">
+        <div class="stage" style="background: var(--rose); height: 560px">
+          <div class="num">03</div>
+          <div class="phone" aria-hidden="true" style="width: 240px; height: 470px">
+            <div style="display: flex; justify-content: space-between; align-items: baseline"><span class="ph-title" style="letter-spacing: 0.04em">AGAIN</span><span style="font-size: 9px; letter-spacing: 0.08em; color: #666">BY LA RŌUGE</span></div>
+            <div style="font-size: 10px; color: #666">Tøjets næste kapitel</div>
+            <div class="ph-grid"><div style="background: #E7C8BF; height: 104px"></div><div style="background: #D8B1A6; height: 104px"></div><div style="background: #F1DDD7; height: 104px"></div><div style="background: #E2BDB2; height: 104px"></div></div>
+          </div>
+        </div>
+        <div class="meta">
+          <div><div class="name">AGAIN by LA RŌUGE</div><div class="desc">Secondhand-koncept for LA RŌUGE</div></div>
+          <svg class="arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+        <div class="pills"><span>KONCEPT</span><span>BRANDING</span><span>GRUPPEPROJEKT</span></div>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <div>
+      <a class="footer-mail" href="mailto:Cecilieva@outlook.dk">Cecilieva@outlook.dk</a>
+      <nav class="footer-links" aria-label="Footer"><a href="projekter.html">Projekter</a><a href="om-mig.html">Om mig</a><a href="kontakt.html">Kontakt</a></nav>
+    </div>
+    <div class="footer-social"><a href="#">Instagram</a><a href="#">Linkedin</a><a href="#">Tiktok</a></div>
+  </div>
+  <div class="copyright">© <span data-year>2026</span> Cecilie Vestergaard Andersen</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
