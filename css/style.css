@@ -435,3 +435,5 @@ a:hover { color: var(--muted); }
   .fl, .marquee .track, .dot-blink { animation: none; }
   html { scroll-behavior: auto; }
 }
+
+.stat .v.xs { font-size: clamp(40px, 4vw, 64px); }
