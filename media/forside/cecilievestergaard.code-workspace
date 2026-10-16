@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"name": "cecilievestergaard",
+		"path": "../.."
+	},
+	{
+		"name": "media",
+		"path": "../../../media"
+	},
+	{
+		"name": "css",
+		"path": "../../../css"
+	},
+	{
+		"name": "js",
+		"path": "../../../js"
+	},
+	{
+		"name": "cecilieportfolio",
+		"path": "../../../cecilieportfolio"
+	}
+],
+  "settings": {}
+}
