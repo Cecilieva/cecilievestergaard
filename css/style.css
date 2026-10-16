@@ -437,3 +437,12 @@ a:hover { color: var(--muted); }
 }
 
 .stat .v.xs { font-size: clamp(40px, 4vw, 64px); }
+
+.values { list-style: none; margin: 0 0 32px; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 28px 40px; max-width: 760px; }
+.values li { display: grid; grid-template-columns: 48px 1fr; gap: 12px; align-items: start; }
+.values .no { font-family: var(--serif); font-size: 36px; line-height: 1; color: #440010; }
+.values b { display: block; font-family: var(--serif); font-weight: 400; text-transform: uppercase; letter-spacing: 0.06em; color: #DC4A33; font-size: 22px; line-height: 1.1; margin-bottom: 4px; }
+.values div { font-size: 16px; color: #440010; }
+.chapter > div { min-width: 0; }
+.chapter p.slogan { font-family: var(--serif); font-size: clamp(36px, 5vw, 64px); line-height: 1.1; color: #440010; margin: 48px 0 0; max-width: none; }
+.chapter p.slogan span { color: #DC4A33; }
